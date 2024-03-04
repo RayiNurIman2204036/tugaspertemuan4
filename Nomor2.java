@@ -40,12 +40,13 @@ public class Nomor2 {
     awal = bilangan.nextInt();
     akhir = bilangan.nextInt();
     
+    System.out.println("Bilangan prima " + awal + " sd "+ akhir +" adalah");
     for(i=awal;i<=akhir;i++){
     if(i > 1){    
     if(prima(i)){
         System.out.println(i);
+                }
             }
-    }
         }
     }
 }
